@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2C2B3D;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3.5rem;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 6.4rem;
+    list-style: none;
+    color: #fff;
+    font-family: 'JetBrains Mono', monospace;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 9rem;
+    gap: -24.3rem;
+    margin-left: 6rem;
+}
+h1{
+    font-size: 36px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #ffffff;
+    margin-bottom:5.9rem ;
+}
+span{
+    color: #00BFA6;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+main section p{
+    color: #C2C2C2;
+    font-size: 16px;
+    width: 60.4rem;
+    line-height: 2rem;
+font-family: 'Open Sans', sans-serif;
+}
+#line{
+    width: 568px;
+    margin: 0 auto;
+    border: 1px solid #00BFA6;
+}
+#paragrafo_footer{
+    font-size: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #ffffff;
+}
+#imagem_cadeado{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+footer{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.7rem;
+}
